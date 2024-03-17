@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clickable Blocks</title>
+<style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(bus_background.jpg);
+}
+
+.block {
+  width: 900px;
+  height: 900px;
+  margin: 10px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.block:hover {
+  background-color: #f00;
+}
+h1{
+  color: azure;
+  font-size: 50px;
+}
+h2{
+  font-size: 50px;
+}
+h3{
+  font-size: 30px;
+}
+.b1{
+  margin-left: 170px;
+}
+.b2{
+  margin-left: 130px;
+}
+
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Company Business's</h1>
+<div class="block" id="block1" onclick="window.location.href='page1.html'">
+<h2 class="b1">Sweets Botique</h2>
+<h3 style="margin-left: 140px;">Address</h3>
+<ul style="margin-left: 100px;">
+  <li>Jawahar Nagar , near Barajoytirlinga mandir , Akola</li>
+</ul>
+</div>
+<div class="block" id="block2" onclick="window.location.href='page2.html'">
+  <h2 class="b2">Dnk Restaurants</h2>
+  <h3 style="margin-left: 140px;">Address</h3>
+  <ul style="margin-left: 100px;">
+  <li>Jatharpeth, Akola</li></ul>
+</div>
+<div class="block" id="block3" onclick="window.location.href='page3.html'">
+  <h2 class="b2">Dnk Construction Company</h2>
+  <h3 style="margin-left: 140px;">Address</h3>
+  <ul style="margin-left: 70px;">
+  <li>Gaurakshan Road,  opposite to D-mart link road, Akola</li></ul></div>
+<div class="block" id="block4" onclick="window.location.href='page4.html'"></div>
+<script src="script.js"></script>
+</body>
+</html>
