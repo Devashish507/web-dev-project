@@ -1,0 +1,22 @@
+body {
+    background-image:url('bgimage.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1800px 780px;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+div {
+    text-align: center;
+    margin-top: 250px;
+    border-style: groove;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 30px;
+    background-color: lightpink;
+    opacity: 0.7;
+}
+button{
+    size: 50px;
+}
